@@ -59,10 +59,10 @@ const NavigationBar: React.FC = () => {
                 ))}
                 <div className="flex flex-row space-x-4">
                     <li className="nav-links px-4 cursor-pointer capitalize font-medium border border-[#ffffff] rounded-xl text-[#ffffff] py-2 hover:scale-105 duration-200 link-underline">
-                        <a className='font-rubik' href="https://app.getradii.com/signin" target="_blank" rel="noopener noreferrer">Sign In</a>
+                        <a className='font-rubik' href="https://radiiapp.netlify.app/" target="_blank" rel="noopener noreferrer">Sign In</a>
                     </li>
                     <li className="nav-links px-4 cursor-pointer capitalize font-medium bg-[#F27405] rounded-xl text-[#ffffff] py-2 hover:scale-105 duration-200 link-underline">
-                        <a className='font-rubik' href="https://app.getradii.com/signup" target="_blank" rel="noopener noreferrer">Register</a>
+                        <a className='font-rubik' href="https://radiiapp.netlify.app/signup" target="_blank" rel="noopener noreferrer">Register</a>
                     </li>
                 </div>
 
