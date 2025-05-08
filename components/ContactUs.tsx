@@ -64,7 +64,7 @@ function ContactUs() {
     const digitsOnly = phoneNumber.replace(/\D/g, "");
 
     // Check for valid lengths (12 digits including country code)
-    if (!(digitsOnly.length === 12 && phoneNumber.startsWith("+"))) {
+    if (!(digitsOnly.length === 13 && phoneNumber.startsWith("+"))) {
       setIsSubmitting(false);
       alert("A valid phone number is required. Should be 13 digits including country code. Eg: +2348012345678 or +2336012345678");
       return;
@@ -157,11 +157,11 @@ function ContactUs() {
           <div className="flex row justify-between ">
             <div className="flex items-center justify-start lg:justify-start my-1 gap-4">
                 <MdOutlineLocationOn style={{ color: '#F27405' }} />
-                <p className="text-sm font-rubik">Accra, Ghana</p>
+                <p className="text-sm font-rubik">Lagos, Nigeria</p>
             </div>
             <div className="flex items-center justify-start lg:justify-start my-1 gap-4">
               <AiOutlineMail style={{ color: '#F27405',  }} />
-              <p className="text-sm font-rubik">oyinlade@getradii.com </p>
+              <p className="text-sm font-rubik">getradii.ai@gmail.com </p>
             </div>
           </div>
         </div>
